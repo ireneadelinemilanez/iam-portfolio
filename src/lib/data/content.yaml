@@ -1,0 +1,74 @@
+profile:
+  name: Irene Adeline Milanez
+  tagline: Multimedia Journalist
+  photo: photos/irene.png
+  photoAlt: 
+  email: ireneadeline.milanez@gmail.com
+  github: ireneadelinemilanez
+  linkedin: irene-adeline-milanez
+  bio: |
+    Irene Adeline Milanez is an award winning, Filipino American journalist who shares the stories of underrepresented communities through writing, photography and video. At the Sacramento Bee, they covered the city’s food scene, from historic restaurant closures to craft cannabis edibles. They interned at NBC Bay Area, assisting with “Bay Area Proud,” a weekly segment on local human-interest stories. Milanez is pursuing a multimedia journalism career in business reporting at the Craig Newmark Graduate School of Journalism in New York.
+clips:
+  - slug: mutual-aid
+    title: Bed-Stuy Mutual Aid Groups Rally to Feed Neighbors
+    image: /photos/police.jpg
+    imageAlt:  
+    description: More than 40,000 Bed-Stuy residents who rely on SNAP benefits saw their monthly grocery budgets shrink at the start of November. With food pantries strained and underresourced, mutual aid groups, local government and community-led efforts continue to fill the gaps left by SNAP.
+    url: https://www.nycitynewsservice.com/2025/12/15/bed-stuy-mutual-aid-groups-rally-to-feed-neighbors/
+    skills:
+      - XXX
+      - XXX
+      - XXX
+      - XXX
+    body: |
+      XXX
+      
+      XXX
+
+  - slug: cannabis
+    title: How one Southern California-based cannabis company made an award-winning edible
+    image: /photos/bandits-roost.jpg
+    imageAlt: Bandit's Roost, a Riis photograph of an alley off Mulberry Street, 1888
+    description: While most edibles add flavoring, either artificial or from purees, Ay Papi’s gummies take their profile directly from the cannabis plant. The Whitethorn Rose strain, bred by Huckleberry Hill Farms, is known for its layered floral, savory and fruity aroma.
+    url: https://www.sacbee.com/food-drink/restaurants/article310345780.html
+    skills:
+      - XXX
+      - XXX
+      - XXX
+      - XXX
+    body: |
+      XXX
+      
+      XXX
+
+  - slug: tacos
+    title: ‘Smokehouse taqueria’ serving brisket tacos, salmon sashimi tostada in Elk Grove
+    image: /photos/mulberry-bend.jpg
+    imageAlt: Mulberry Bend before demolition, photographed in the early 1890s
+    description: After years in high-end kitchens and corporate catering, one chef has returned to his roots, serving street-style dishes like salmon sashimi tostadas and brisket tacos at a “smokehouse taqueria” in Elk Grove.
+    url: https://www.sacbee.com/food-drink/restaurants/article311452460.html 
+    skills:
+      - XXX
+      - XXX
+      - XXX
+      - XXX
+    body: |
+      XXX
+      
+      XXX
+
+  - slug: coffee
+    title: Cafe brings coffee, tea and coconut water from Vietnamese farmers to Sacramento
+    image: /photos/mulberry-bend.jpg
+    imageAlt: Mulberry Bend before demolition, photographed in the early 1890s
+    description: After years of traveling the country to serve dumplings at music festivals like Coachella and Head in the Clouds, Drunken Dumpling co-owners Crystal Huynh-Kim and Charley Phung shifted to a business that could keep them in Sacramento with their baby.
+    url: https://www.sacbee.com/food-drink/restaurants/article311452460.html 
+    skills:
+      - XXX
+      - XXX
+      - XXX
+      - XXX
+    body: |
+      XXX
+      
+      XXX
