@@ -44,7 +44,7 @@ Card.svelte — A card container with optional image, link, and footer actions.
 
 <style lang="scss">
   .card {
-    border: 1px solid var(--color-border, #ddd);
+    border: 3px solid var(--color-accent);
     border-radius: 4px;
     background: var(--color-white, #fff);
     overflow: hidden;

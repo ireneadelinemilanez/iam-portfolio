@@ -13,6 +13,7 @@ USAGE EXAMPLE:
   email="jane@example.com"
   github="janesmith"
   linkedin="janesmith"
+  instagram="janesmith"
   bio="Currently reporting on evictions for The City.
 
 Next, I'm exploring machine learning tools for document analysis."
@@ -23,28 +24,21 @@ Next, I'm exploring machine learning tools for document analysis."
   import IconEmail from '$lib/components/Icons/IconEmail.svelte';
   import IconGitHub from '$lib/components/Icons/IconGitHub.svelte';
   import IconLinkedIn from '$lib/components/Icons/IconLinkedIn.svelte';
+  import IconInstagram from '$lib/components/Icons/IconInstagram.svelte';
   import ProfileContactLink from './ProfileContactLink.svelte';
   import ProfileBio from './ProfileBio.svelte';
 
-  let { name, tagline, photo, photoAlt, email, github, linkedin, bio } =
+  let { name, tagline, photo, photoAlt, email, github, linkedin, instagram, bio } =
     $props();
 
   const contacts = $derived(
     [
-      email
+      instagram  
         ? {
-            href: `mailto:${email}`,
-            label: 'Email',
-            external: false,
-            icon: IconEmail,
-          }
-        : null,
-      github
-        ? {
-            href: `https://github.com/${github}`,
-            label: 'GitHub',
+            href: `https://www.instagram.com/${instagram}`,
+            label: 'Instagram',
             external: true,
-            icon: IconGitHub,
+            icon: IconInstagram,
           }
         : null,
       linkedin
@@ -55,7 +49,23 @@ Next, I'm exploring machine learning tools for document analysis."
             icon: IconLinkedIn,
           }
         : null,
-    ].filter(Boolean)
+    email
+        ? {
+            href: `mailto:${email}`,
+            label: 'Email',
+            external: false,
+            icon: IconEmail,
+          }
+        : null,
+     github
+        ? {
+            href: `https://github.com/${github}`,
+            label: 'GitHub',
+            external: true,
+            icon: IconGitHub,
+          }
+        : null,  
+    ].filter(Boolean) 
   );
 </script>
 
@@ -93,8 +103,7 @@ Next, I'm exploring machine learning tools for document analysis."
   @use '$lib/styles' as *;
 
   .profile {
-    border-top: calc(var(--border-width-accent) * 2) solid var(--color-accent);
-    border-bottom: var(--border-width-divider) solid var(--color-border);
+    border-top: calc(var(--border-width-accent) * 1) solid var(--color-accent);
     margin-bottom: var(--spacing-xl);
     padding: var(--spacing-md) 0;
   }
@@ -124,15 +133,14 @@ Next, I'm exploring machine learning tools for document analysis."
   .tagline {
     margin: 0 0 var(--spacing-sm);
     font-size: var(--font-size-xl);
-    color: var(--color-text);
+    color: var(--color-accent);
     line-height: var(--leading-caption);
     max-width: 42rem;
+    font-family: var(--font-sans);
   }
 
   .hero-photo-wrap {
-    border: var(--border-width-thin) solid var(--color-border);
-    background: var(--color-white);
-    padding: var(--spacing-xs);
+    border: 3px solid var(--color-accent);
 
     @include mobile {
       max-width: var(--max-width-image-small);

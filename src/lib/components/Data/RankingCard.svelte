@@ -64,7 +64,7 @@ RankingCard.svelte — A horizontal card showing rank, optional image, title, an
     align-items: center;
     gap: var(--spacing-md, 1rem);
     padding: var(--spacing-sm, 0.75rem) var(--spacing-md, 1rem);
-    border-bottom: 1px solid var(--color-border, #ddd);
+    border-bottom: 3px solid var(--color-accent);
   }
 
   .ranking-card-link {

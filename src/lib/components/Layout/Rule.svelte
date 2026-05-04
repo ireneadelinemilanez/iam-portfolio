@@ -7,7 +7,7 @@ Rule.svelte — A horizontal rule for separating content sections.
 <style>
   .rule {
     border: none;
-    border-top: 1px solid var(--color-border, #ddd);
+    border-top: 3px solid var(--color-accent);
     margin: var(--spacing-md) 0;
   }
 </style>

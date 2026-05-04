@@ -100,6 +100,7 @@ USAGE EXAMPLE:
 
   .article-header {
     margin-bottom: var(--spacing-md);
+    font-family: var(--font-sans);
   }
 
   .meta {
