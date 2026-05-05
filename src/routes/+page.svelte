@@ -20,11 +20,13 @@
   IRENE ADELINE MILANEZ
   </h1>
 
+  <h2> MULTIMEDIA JOURNALIST </h2>
+
   <Rule />
 
-  <h2> 
+  <h3> 
   ARTICLES 
-  </h2>
+  </h3>
 
    <CardGrid>
     {#each content.clips as clip (clip.title)}
